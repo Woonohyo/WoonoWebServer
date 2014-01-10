@@ -1,0 +1,52 @@
+<html><head><title>Jobfile</title>
+<meta http-equiv='Content-Type'
+      content='text/html;
+      charset=utf-8'
+      />
+<script type='text/javascript'
+	src='/ha/kyjob/javascript/main.js'></script>
+<link rel='stylesheet'
+      type='text/css'
+      href='/ha/kyjob/css/main.css'
+      />
+</head>
+<body>
+<div id='ID1003-PAGE-MENU'>
+  <ul>
+    <li><a href='/ha/kyjob/'>home</a></li>
+    <li>|</li>
+    <li><a href='/ha/kyjob/admin'>admin</a></li>
+    <li>|</li>
+    <li><a href='/ha/kyjob/logout'>logout</a></li>
+  </ul>
+</div>
+<div class='header'><h1>Jobfile</h1></div>
+<ul class='breadcrumb'>
+  <li><a/ha/kyjob/ href='/ha/kyjob/'>home</a></li>
+  <li><a/ha/kyjob/jobfile/edit href='/ha/kyjob/jobfile/edit'>Jobfile</a></li>
+</ul>
+<div id='ID1004-MENUBAR'>
+  <ul><li><a href='/ha/kyjob/xml/jobfile'>Xml</a></li>
+    <li>|</li>
+    <li><a href='/ha/kyjob/jobfile/load'>Load</a></li>
+    <li>|</li>
+    <li><a href='#' onclick='appJobfileModel();'>model</a></li>
+     <li>|</li>
+    <li><a href='#' onclick='appJobfileView();'>draw</a></li>
+  </ul>
+</div>
+<div>
+  <input id='ID1002-CANVAS-WIDTH'
+	 size='5' />
+  <input id='ID1001-CANVAS-HEIGHT'
+	 size='5' />
+  <input id='ID1005-MOUSE-X'
+	 size='5' />
+  <input id='ID1006-MOUSE-Y'
+	 size='5' />
+</div>
+<canvas id='ID1000-CANVAS'
+	width='1024' height='768'
+	style='border:1px solid #d0e0f0;'></canvas>
+</body>
+</html>
